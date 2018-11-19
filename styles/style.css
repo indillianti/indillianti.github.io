@@ -1,0 +1,22 @@
+
+[data-title="About Me"] {
+    background: red;
+}
+
+.big {
+  font-size: 1px;
+}
+
+.big,
+.inverse {
+  color: white;
+  background: black;
+}
+[data-title="Greeting"] {
+    background: green;
+}
+
+[data-title="Food"]  {
+  font-size: 100px;
+  font-color: purple;
+}
