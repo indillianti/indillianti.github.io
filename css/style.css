@@ -1,25 +1,54 @@
-.name{
-	color: teal;
-	font-family: "helvetica", sans-serif;
-	font-style: bold; 	
-	text-align: center;
-}
-
-
-.desc{
-	font-family: "helvetica", sans-serif;
-
-}
-
-.roundimage{
-	border-radius: 100%;
+.img-circle{
 	width: 180px;
 	height: 180px;
-	display: block;
-	float: left;
-	overflow: auto;
+	border-radius: 100%
 }
 
-.intro{
-	padding:10px;
+body {
+	background:none;
+	color:#69707a;
+	font-family: "Open Sans", Arial, sans-serif;
 }
+
+strong {
+	color:#222324;
+}
+
+.navbar {
+	background: #03b4b7;
+}
+
+.btn-primary {
+	background: #e16879;
+  	border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #e05164;
+  border-color: #e05164;
+
+  .card{
+  	border-color: #ccc	
+  }
+
+  .card-title {
+  color: #e16879;
+  font-weight: 300;
+}
+
+.card-block small {
+  float: right;
+}
+
+.description {
+  background-image: url("/pattern.png");
+  background-repeat: repeat-x;
+
+ .jumbotron text-center {
+ 	background-image: img/befooter.jpg;
+ 	background-size: cover;
+ 	color: white;
+ }
