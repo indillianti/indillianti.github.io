@@ -1,54 +1,25 @@
-.img-circle{
+.name{
+	color: teal;
+	font-family: "helvetica", sans-serif;
+	font-style: bold; 	
+	text-align: center;
+}
+
+
+.desc{
+	font-family: "helvetica", sans-serif;
+
+}
+
+.roundimage{
+	border-radius: 100%;
 	width: 180px;
 	height: 180px;
-	border-radius: 100%
+	display: block;
+	float: left;
+	overflow: auto;
 }
 
-body {
-	background:none;
-	color:#69707a;
-	font-family: "Open Sans", Arial, sans-serif;
+.intro{
+	padding:10px;
 }
-
-strong {
-	color:#222324;
-}
-
-.navbar {
-	background: #03b4b7;
-}
-
-.btn-primary {
-	background: #e16879;
-  	border-color: #e16879;
-}
-
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus,
-.btn-primary:active:focus {
-  background: #e05164;
-  border-color: #e05164;
-
-  .card{
-  	border-color: #ccc	
-  }
-
-  .card-title {
-  color: #e16879;
-  font-weight: 300;
-}
-
-.card-block small {
-  float: right;
-}
-
-.description {
-  background-image: url("/pattern.png");
-  background-repeat: repeat-x;
-
- .jumbotron text-center {
- 	background-image: img/befooter.jpg;
- 	background-size: cover;
- 	color: white;
- }
